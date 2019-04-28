@@ -3,7 +3,7 @@
 @section('mainheader')
     <title>Choose a profession</title>
     <meta name="keywords" content="">
-    <meta name="description" content="Choose a profession3">
+    <meta name="description" content="Choose a profession443">
 @endsection
 
 @section('navbar')
