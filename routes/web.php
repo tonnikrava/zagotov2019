@@ -11,6 +11,19 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
 });
+
+Route::get('/',['uses'=>'MainController@getIndex','as'=>'home']);
+Route::get('news', ['uses' => 'MainController@newss', 'as' => 'newss']);
+
+
+
+Route::get('{tovar}', ['uses' => 'MainController@category', 'as' => 'page']);
+Route::get('news/{page}', ['uses' => 'MainController@news', 'as' => 'news']);
+Route::get('{catid}/{tovarid}', ['uses' => 'MainController@tovar', 'as' => 'tovar']);
+
+
+
