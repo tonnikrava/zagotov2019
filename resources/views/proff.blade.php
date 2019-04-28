@@ -3,7 +3,7 @@
 @section('mainheader')
     <title>Choose a profession</title>
     <meta name="keywords" content="">
-    <meta name="description" content="Choose a profession44345t5t">
+    <meta name="description" content="Choose a profession44345t5t-new vers">
 @endsection
 
 @section('navbar')
@@ -31,7 +31,7 @@
                          src="images/study-in-ukraine-doctor.jpg"
                          style="display: inline;">
 
-                    <p>Medical courses</p>
+                    <p>Medical coursestry</p>
 
 
                     <table class="blueTable">
